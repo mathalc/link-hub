@@ -1,0 +1,111 @@
+.background img {
+    max-height: 20vh;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.personal-infos img {
+    width: 180px;
+    border-radius: 500px;
+    border: 4px solid #fff;
+}
+
+.personal-infos img, h1, p {
+    position: relative;
+    top: -80px;
+    text-transform: uppercase;
+}
+
+.personal-infos p {
+    font-size: 14px;
+}
+
+.midia-links {
+    width: 8vh;
+    height: 4vh;
+    position: relative;
+    top: -80px;
+}
+
+.midia-links img {
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-top: 1vh;
+    animation: 0.5s;
+    opacity: 0.8;
+}
+
+.midia-links :hover {
+    width: 4vh;
+    height: 4vh;
+    opacity: 1;
+}
+
+/* Links */
+.main-links {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.main-links * {
+    background-color: transparent;
+}
+
+.link {
+    background-color: #fff;
+    width: 100%;
+    max-height: 10vh;
+    margin-bottom: 20px;
+    border-radius: 500px;
+    padding: 25px 30px;
+}
+
+.link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    animation: 0.5s;
+}
+
+.link:hover a {
+    background-color: #B08D57;
+    color: #fff;
+}
+
+.link:hover {
+    background-color: #B08D57;
+    color: #fff;
+}
+
+.link img {
+    width: 2.5vh;
+}
+
+.main-img {
+    margin-right: 25px;
+}
+
+.wpp:hover .main-img {
+    content: url("./assets/img/WhatsAppBranco.png");
+}
+
+.location:hover .main-img {
+    content: url("./assets/img/LocationBranco.png");
+}
+
+.catalog:hover .main-img {
+    content: url("./assets/img/MagazineBranco.png");
+}
+
+.ebook:hover .main-img {
+    content: url("./assets/img/BookBranco.png");
+}
